@@ -7,6 +7,7 @@
 
 img {
     width: 100%;
+    margin-bottom: 2rem;
 }
 
 .container {
@@ -17,6 +18,10 @@ img {
 
 li {
     list-style: none;
+}
+
+li + li {
+    margin-top: .8rem;
 }
 
 a {
@@ -42,6 +47,7 @@ a {
     font-size: 1.5rem;
     color: #fff;
     opacity: .7;
+    margin-bottom: 2rem;
 }
 
 .font-4 {
@@ -55,13 +61,13 @@ a {
 .font-5 {
     font-size: 1.9rem;
     font-weight: bold;
-    margin: 0 auto;
     text-align: center;
 }
 
 .font-5__para {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.18rem;
+    text-align: center;
 }
 
 .font-6 {
@@ -72,6 +78,7 @@ a {
 .font-6__para {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
+    margin-bottom: 2rem;
 }
 
 .font-7 {
@@ -89,16 +96,26 @@ a {
 .font-8 {
     font-size: 1.5rem;
     font-weight: bold;
+    color: #fff;
+    text-align: center;
 }
 
 .font-9 {
     font-size: 1.3rem;
     font-weight: bold;
+    color: #A59678;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-top: 3.4rem;
 }
 
 .font-9__para {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
+    color: #fff;
+    opacity: .7;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 /*  styleing   */
@@ -128,6 +145,8 @@ nav {
 
 .fourth-section {
     background: #3B4050;
+    padding-top: 2rem;
+    margin-top: 3rem;
 }
 
 .flex {
@@ -148,4 +167,36 @@ nav {
 
 .col__child + .col__child {
     margin-top: 1rem;
+}
+
+.logo {
+    font-size: 2.5rem;
+}
+
+ul {
+    padding-top: 2rem;
+}
+
+ul + ul {
+    padding-bottom: 2rem;
+}
+
+/*.container {
+    padding: 4rem 0;
+}*/
+
+li {
+    text-align: center;    
+}
+
+section {
+    padding: 3rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 2rem;
+}
+
+.secondary-section__col + .secondary-section__col {
+    margin-top: 2rem;
 }
